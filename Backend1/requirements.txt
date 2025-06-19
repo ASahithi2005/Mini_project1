@@ -1,0 +1,18 @@
+# FastAPI Backend
+fastapi
+uvicorn
+
+# AWS Textract OCR
+boto3
+
+# Env and Data Management
+python-dotenv
+pydantic
+
+# LangChain + Community LLMs (includes Groq support)
+langchain
+langchain-community
+
+# Optional: For BioBERT or Hugging Face transformers
+transformers
+torch

@@ -1,5 +1,7 @@
+# main.py
+
 from fastapi import FastAPI
-from routes import ocr
+from routes import ocr, parse
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="Smart Prescription Companion API")
@@ -13,3 +15,4 @@ app.add_middleware(
 )
 
 app.include_router(ocr.router, prefix="/ocr")
+app.include_router(parse.router, prefix="/parse")
