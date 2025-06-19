@@ -23,8 +23,12 @@
     "react-native-screens": "~4.11.1",
     "react-dom": "19.0.0",
     "react-native-web": "^0.20.0",
+<<<<<<< HEAD
     "@expo/metro-runtime": "~5.0.4",
     "expo-blur": "~14.1.5"
+=======
+    "@expo/metro-runtime": "~5.0.4"
+>>>>>>> 3aad196f99896348d46617252da1a918088a830a
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
